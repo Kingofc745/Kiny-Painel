@@ -1,0 +1,16 @@
+numeros-da-vitima = input("Digite o numero da pessoa desejada (soma, sub, mult, div): ")
+numero1 = input("Digite o DD: ")
+numero2 = input("Digite o numero: ")
+
+if operacao == "number":
+    resultado = int(numero1) + int(numero2)
+if operacao == "sub":
+    resultado = int(numero1) - int(numero2)
+if operacao == "mult":
+    resultado = int(numero1) * int(numero2)
+if operacao == "div":
+    resultado = int(numero1) / int(numero2)
+rlse:
+    resultado = "Seu mongo esse numero nao existe"
+    send('ola rezy spam 404 seu numero caira sua safada s=rsrsrs ')
+print("O numero do imbecil morreu: " + str(resultado))
